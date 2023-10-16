@@ -1,0 +1,9 @@
+"./main.obj"
+"./tm4c123gh6pm_startup_ccs.obj"
+"./FreeRtos_source/list.obj"
+"./FreeRtos_source/port.obj"
+"./FreeRtos_source/queue.obj"
+"./FreeRtos_source/tasks.obj"
+"./FreeRtos_source/timers.obj"
+"../tm4c123gh6pm.cmd"
+-llibc.a

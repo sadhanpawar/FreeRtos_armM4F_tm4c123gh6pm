@@ -48,7 +48,7 @@ extern "C" {
 /* Set configCREATE_LOW_POWER_DEMO to one to run the simple blinky demo low power
 example, or 1 to run the more comprehensive test and demo application.  See
 the comments at the top of main.c for more information. */
-#define configCREATE_LOW_POWER_DEMO	1
+#define configCREATE_LOW_POWER_DEMO	0
 
 /* Some configuration is dependent on the demo being built. */
 #if( configCREATE_LOW_POWER_DEMO == 1 )
@@ -84,7 +84,7 @@ the comments at the top of main.c for more information. */
 #define configUSE_QUEUE_SETS					1
 #define configUSE_IDLE_HOOK						0
 #define configUSE_TICK_HOOK						1
-#define configCPU_CLOCK_HZ						48000000
+#define configCPU_CLOCK_HZ						40000000
 #define configMAX_PRIORITIES					( 5 )
 #define configMINIMAL_STACK_SIZE				( ( unsigned short ) 120 )
 #define configTOTAL_HEAP_SIZE					( ( size_t ) ( 26 * 1024 ) )
